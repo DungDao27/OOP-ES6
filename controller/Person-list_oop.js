@@ -44,6 +44,7 @@ window.xoaPerson = (maPersonXoa) =>
     {
         //Nếu xóa  thành công thì render lại table mới
         personList.renderDanhSachPerson('tbody');
+        personList.LuuPerson();
     }
 }
 window.suaPerson = (maPerson) =>
